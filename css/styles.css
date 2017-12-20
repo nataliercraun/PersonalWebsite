@@ -1,0 +1,155 @@
+.container-fluid {
+    text-align: center;
+}
+
+#myNav {
+    padding-top: 15px;
+    text-align: end;
+    background-color: black;
+}
+
+#myHeader {
+    background-color: black;
+}
+
+#myHeader h1 {
+    color: white;
+    font-family: "American Typewriter";
+    font-size: 120px;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: lightblue; }
+}
+
+.btn {
+    font-size: xx-large;
+    font-family: "American Typewriter";
+    color: lightblue;
+    letter-spacing: .15em;
+}
+
+html {
+    background-color: black;
+}
+
+#nameAnime {
+    text-align: center;
+}
+
+#test {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative;
+    animation: mymove 5s forwards;
+}
+
+#test h2 {
+    font-family: "American Typewriter";
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+#emailBtn {
+    color: black;
+}
+
+#test2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative;
+    animation: mymove 5s forwards;
+    padding-top: 50px;
+}
+
+#test2 h2 {
+    font-family: "American Typewriter";
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    float: left;
+    padding-left: 75px;
+    display: inline-block;
+}
+
+#btn1 {
+    height: 75px;
+    width: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background: url(http://www.freeiconspng.com/uploads/linkedin-icon-1.png) no-repeat 6px center;
+    background-size: contain;
+}
+
+#btn2 {
+    height: 75px;
+    width: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background: url(https://image.flaticon.com/icons/png/512/25/25231.png) no-repeat 6px center;
+    background-size: contain;
+}
+
+#btn3 {
+    height: 75px;
+    width: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background: url(http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c521.png) no-repeat 6px center;
+    background-size: contain;
+}
+
+#btn4 {
+    height: 75px;
+    width: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background: url(https://www.shareicon.net/download/2015/10/02/110820_blog.ico) no-repeat 6px center;
+    background-size: contain;
+}
+
+
+
+/* Standard syntax */
+#test {animation-timing-function: linear;}
+#test2 {animation-timing-function: ease;}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+
+

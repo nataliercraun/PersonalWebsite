@@ -1,0 +1,50 @@
+.container-fluid {
+    text-align: center;
+}
+
+#myNav {
+    padding-top: 15px;
+    text-align: end;
+    background-color: black;
+}
+
+html {
+    background-color: black;
+}
+
+.btn {
+    font-size: xx-large;
+    font-family: "American Typewriter";
+    color: lightblue;
+    letter-spacing: .15em;
+}
+
+#separateContent {
+    padding-bottom: 175px;
+}
+
+table {
+    background-color: lightblue;
+}
+
+td {
+    font-size: 30px;
+    text-align: center;
+    font-family: Futura;
+    color: white;
+}
+
+.row {
+    background-color: black;
+}
+
+#mybtns {
+    font-size: 23px;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+    font-family: Futura;
+    color: black;
+}
+
+
